@@ -22,9 +22,7 @@ class _ProfilePageState extends State<ProfilePage>
   final LogoutRemoteBloc logoutRemoteBloc = getIt<LogoutRemoteBloc>();
 
   late final AuthBloc authBloc;
-
   late final UserInfo user;
-
   late final bool isSignedInWithGoogle;
 
   @override
